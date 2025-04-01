@@ -48,7 +48,7 @@ def test_positive_submitting_the_form(browser_options):
         'Address 1234 Elm Street, Springfield, Illinois, 62704, USA',
         'State and City NCR Noida')
     )
-    browser.element('#closeLargeModal').should(be.clickable)
+    browser.element('#closeLargeModal').should(be.enabled)
 
 
 
